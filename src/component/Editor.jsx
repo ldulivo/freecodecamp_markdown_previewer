@@ -11,7 +11,7 @@ export default function Editor({ changeTextContent }) {
     }
 
     const getMarkdown = async() => {
-        await fetch('/markdown.md')
+        await fetch('https://ldulivo.github.io/freecodecamp_markdown_previewer/markdown.md')
             .then(resp => resp.text() )
             .then(text => { setValueMarkdown(text)});
     }
