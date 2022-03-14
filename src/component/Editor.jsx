@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import TopBar from './topBar/TopBar';
 
 
 export default function Editor({ changeTextContent }) {
@@ -26,16 +27,16 @@ export default function Editor({ changeTextContent }) {
     }, [valueMarkdown])
 
   return (
-      <>
-        <textarea 
-            name="" 
-            id="editor" 
-            cols="30" 
-            rows="10"
-            onChange={ editChange }
-            value={ value }
-        >
-        </textarea>
-      </>
+      <section>
+            <TopBar text={'Editor'} id={'editorNavBar'} >
+                <textarea 
+                    name="" 
+                    id="editor"
+                    onChange={ editChange }
+                    value={ value }
+                >
+                </textarea>
+            </TopBar>
+      </section>
   )
 }

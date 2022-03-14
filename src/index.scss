@@ -11,7 +11,8 @@
 }
 
 body {
-  background: $bg_primary;
+  background: $bg_body;
 }
 
+@import "./component/topBar/TopBar";
 @import "./app";

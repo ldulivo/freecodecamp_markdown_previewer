@@ -1,0 +1,53 @@
+.TopBar {
+  &--container {
+    width: 390px;
+    height: 270px;
+
+    div {
+      width: 100%;
+      height: 35px;
+      background: $bg_primary;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 10px;
+
+      label {
+        width: 24px;
+        height: 24px;
+
+        img:first-child {
+          display: block;
+        }
+
+        img:last-child {
+          display: none;
+        }
+      }
+    }
+
+    article {
+      width: 100%;
+      height: calc(100% - 35px);
+    }
+  }
+
+  input {
+    display: none;
+
+    &:checked ~ .TopBar--container {
+      width: 90vw;
+      height: 100vh;
+    }
+
+    &:checked ~ div label {
+      img:first-child {
+        display: none;
+      }
+
+      img:last-child {
+        display: block;
+      }
+    }
+  }
+}
