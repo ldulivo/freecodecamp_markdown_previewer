@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/freecodecamp_markdown_previewer/static/css/main.98fca416.css",
-    "main.js": "/freecodecamp_markdown_previewer/static/js/main.56e769de.js",
+    "main.css": "/freecodecamp_markdown_previewer/static/css/main.80bdd210.css",
+    "main.js": "/freecodecamp_markdown_previewer/static/js/main.bc9e7132.js",
     "static/js/787.d0c8aa10.chunk.js": "/freecodecamp_markdown_previewer/static/js/787.d0c8aa10.chunk.js",
     "index.html": "/freecodecamp_markdown_previewer/index.html",
-    "main.98fca416.css.map": "/freecodecamp_markdown_previewer/static/css/main.98fca416.css.map",
-    "main.56e769de.js.map": "/freecodecamp_markdown_previewer/static/js/main.56e769de.js.map",
+    "main.80bdd210.css.map": "/freecodecamp_markdown_previewer/static/css/main.80bdd210.css.map",
+    "main.bc9e7132.js.map": "/freecodecamp_markdown_previewer/static/js/main.bc9e7132.js.map",
     "787.d0c8aa10.chunk.js.map": "/freecodecamp_markdown_previewer/static/js/787.d0c8aa10.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.98fca416.css",
-    "static/js/main.56e769de.js"
+    "static/css/main.80bdd210.css",
+    "static/js/main.bc9e7132.js"
   ]
 }
