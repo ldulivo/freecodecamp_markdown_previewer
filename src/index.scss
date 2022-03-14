@@ -1,0 +1,17 @@
+@import "./colors";
+@import "./fonts";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font_name;
+  font-size: 14px;
+  color: $text-color;
+}
+
+body {
+  background: $bg_primary;
+}
+
+@import "./app";
